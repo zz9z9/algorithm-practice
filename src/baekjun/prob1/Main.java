@@ -1,6 +1,7 @@
 package baekjun.prob1;
 
 /**
+ * [프린터큐]
  * https://www.acmicpc.net/problem/1966
  */
 
