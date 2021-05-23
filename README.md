@@ -7,7 +7,7 @@
 - prob6 : [이중우선순위큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob6)
 - prob7 : [순위](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob7)
 - prob8 : [키패드 누르기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob8)
-
+- prob9 : [수식 최대화](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob9)
 
 ## 백준
 - prob1 : [프린터큐](https://www.acmicpc.net/problem/1966)
