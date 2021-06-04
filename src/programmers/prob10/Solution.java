@@ -5,16 +5,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Info {
-    String userId;
-    boolean isEnter;
-
-    public Info(String userId, boolean isEnter) {
-        this.userId = userId;
-        this.isEnter = isEnter;
-    }
-}
 public class Solution {
+    class Info {
+        String userId;
+        boolean isEnter;
+
+        public Info(String userId, boolean isEnter) {
+            this.userId = userId;
+            this.isEnter = isEnter;
+        }
+    }
+
     public String[] solution(String[] records) {
         Map<String, String> userNickname = new HashMap<>();
         List<String> answer = new ArrayList<>();
