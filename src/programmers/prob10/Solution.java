@@ -1,41 +1,57 @@
 package programmers.prob10;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.Stack;
 
-class Solution {
-    public int solution(int[][] board, int[] moves) {
-        int answer = 0;
-        int n = board.length;
-        Stack<Integer> bucket = new Stack<>();
-        Map<Integer, Stack<Integer>> columnStk = new HashMap<>();
+class Info {
+    String userId;
+    boolean isEnter;
 
-        for(int i=n-1; i>=0; i--) {
-            for(int j=0; j<n; j++) {
-                if(board[i][j]==0) {
-                    continue;
+    public Info(String userId, boolean isEnter) {
+        this.userId = userId;
+        this.isEnter = isEnter;
+    }
+}
+public class Solution {
+    public String[] solution(String[] records) {
+        Map<String, String> userNickname = new HashMap<>();
+        List<String> answer = new ArrayList<>();
+        List<Info> infoList = new ArrayList<>();
+
+        for(String record : records) {
+            String[] li= record.split(" ");
+            String command = li[0];
+            String userId = li[1];
+
+            if(command.equals("Enter") || command.equals("Change")) {
+                String nickName = li[2];
+                userNickname.put(userId, nickName);
+                if(command.equals("Enter")) {
+                    infoList.add(new Info(userId, true));
                 }
-
-                Stack<Integer> stk = columnStk.getOrDefault(j+1, new Stack<>());
-                stk.push(board[i][j]);
-                columnStk.put(j+1, stk);
+            } else if(command.equals("Leave")){
+                infoList.add(new Info(userId, false));
             }
         }
 
-        for(int col : moves) {
-            Stack<Integer> target = columnStk.get(col);
-            if(target!=null && target.size() > 0) {
-                int dollNum = target.pop();
-                if(bucket.size() > 0 && bucket.peek()==dollNum) {
-                    bucket.pop();
-                    answer+=2;
-                } else {
-                    bucket.push(dollNum);
-                }
+        String enterMsg = "들어왔습니다.";
+        String leaveMsg = "나갔습니다.";
+
+        for(Info i : infoList) {
+            String nickName = userNickname.get(i.userId);
+            StringBuilder displayMsg = new StringBuilder(nickName+"님이 ");
+
+            if(i.isEnter) {
+                displayMsg.append(enterMsg);
+            } else {
+                displayMsg.append(leaveMsg);
             }
+
+            answer.add(displayMsg.toString());
         }
 
-        return answer;
+        return answer.toArray(new String[]{});
     }
 }
