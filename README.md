@@ -9,6 +9,7 @@
 - prob8 : [키패드 누르기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob8)
 - prob9 : [수식 최대화](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob9)
 - prob10 : [오픈 채팅방](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob10)
+- prob11 : [크레인 인형 뽑기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob11)
 
 ## 백준
 - prob1 : [프린터큐](https://www.acmicpc.net/problem/1966)
