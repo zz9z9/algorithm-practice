@@ -12,6 +12,7 @@
 - prob11 : [크레인 인형 뽑기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob11)
 - prob12 : [점프와 순간 이동](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob12)
 - prob13 : [입국심사](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob13) - 답 보고 해결 
+- prob14 : [행렬의 곱셈](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob14) - 오래 걸림 
 
 ## 백준
 - prob1 : [프린터큐](https://www.acmicpc.net/problem/1966)
