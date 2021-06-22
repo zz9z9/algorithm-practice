@@ -16,6 +16,7 @@
 - prob13 : [입국심사](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob13) 🔴  
 - prob14 : [행렬의 곱셈](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob14) 🟠
 - prob15 : [[1차] 셔틀버스](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob15) 🟠  
+- prob16 : [예상 대진표](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob16)
 
 ## 백준
 - prob1 : [프린터큐](https://www.acmicpc.net/problem/1966)
