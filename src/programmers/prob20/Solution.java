@@ -19,13 +19,8 @@ class Solution {
     }
 
     static boolean isPossible(Point p, int num, int[][] arr) {
-        int fromRow = p.fromRow;
-        int fromCol = p.fromCol;
-        int toRow = p.toRow;
-        int toCol = p.toCol;
-
-        for(int i=fromRow; i<=toRow; i++) {
-            for(int j=fromCol; j<=toCol; j++) {
+        for(int i=p.fromRow; i<=p.toRow; i++) {
+            for(int j=p.fromCol; j<=p.toCol; j++) {
                 if(arr[i][j]!=num) {
                     return false;
                 }
