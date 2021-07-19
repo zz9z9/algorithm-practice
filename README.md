@@ -21,6 +21,7 @@
 - prob18 : [징검다리 건너기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob18)
 - prob19 : [무지의 먹방 라이브](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob19) 🔴
 - prob20 : [쿼드압축 후 개수 세기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob20) 
+- prob21 : [2개 이하로 다른 비트](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob21) 
 
 ## 백준
 - prob1 : [프린터큐](https://www.acmicpc.net/problem/1966)
