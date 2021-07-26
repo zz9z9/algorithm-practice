@@ -25,4 +25,5 @@
 - prob22 : [짝지어 제거하기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob22) 
 
 ## 백준
-- prob1 : [프린터큐](https://www.acmicpc.net/problem/1966)
+- prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
+- prob2 : [Maximum Subarray](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob2) 🔴
