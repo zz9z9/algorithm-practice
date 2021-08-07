@@ -1,18 +1,19 @@
 package baekjun.prob3;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    static void recursion(int[] arr, List<Integer> nums, int limit) {
+    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+    static void recursion(int[] arr, List<Integer> nums, int limit) throws IOException {
         if(nums.size()==limit) {
             for(int num : nums) {
-                System.out.print(num +" ");
+                bw.write(num+" ");
             }
-            System.out.println();
+            bw.write("\n");
+            bw.flush();
 
             return;
         }
@@ -37,10 +38,7 @@ public class Main {
             arr[i] = i+1;
         }
 
-        for(int i=0; i<n; i++) {
-            nums.add(arr[i]);
-            recursion(arr, nums, m);   
-            nums.remove(nums.size()-1);
-        }
+        recursion(arr, nums, m);
+
     }
 }
