@@ -28,3 +28,4 @@
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
 - prob2 : [Maximum Subarray](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob2) 🔴
 - prob3 : [N과 M(3)](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob3) 🟠
+- prob4 : [N과 M(1)](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob4)
