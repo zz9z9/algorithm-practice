@@ -30,7 +30,7 @@ public class Main {
         int firstCursor = 0;
         int secondCursor = 1;
         int sum = nums[firstCursor];
-        int answer = 0;
+        int answer = N+1;
 
         while (secondCursor < N) {
             if (nums[firstCursor] >= S || nums[secondCursor] >= S) {
@@ -40,15 +40,14 @@ public class Main {
             sum += nums[secondCursor];
 
             while (sum >= S) {
-                answer = (answer==0) ? (secondCursor - firstCursor + 1) : Math.min(answer, secondCursor - firstCursor + 1);
-                sum -= nums[firstCursor];
-                firstCursor++;
+                answer = Math.min(answer, secondCursor - firstCursor + 1);
+                sum -= nums[firstCursor++];
             }
 
             secondCursor++;
         }
 
-        return answer;
+        return (answer==N+1) ? 0 : answer;
     }
 
     public static void main(String[] args) throws IOException {
