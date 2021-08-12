@@ -21,9 +21,10 @@ public class Main {
     static int N, M, V;
     static boolean[] isVisited;
     static List<ArrayList<Integer>> links = new ArrayList<>();
+    static StringBuilder sb = new StringBuilder();
 
     static void dfs(int currNode) {
-        System.out.print(currNode + " ");
+        sb.append(currNode+" ");
         isVisited[currNode] = true;
 
         for (int toNode : links.get(currNode)) {
@@ -38,7 +39,7 @@ public class Main {
         que.add(currNode);
         isVisited[currNode] = true;
 
-        System.out.print(currNode + " ");
+        sb.append(currNode+" ");
 
         while (!que.isEmpty()) {
             int fromNode = que.poll();
@@ -47,7 +48,7 @@ public class Main {
                     que.add(toNode);
                     isVisited[toNode] = true;
 
-                    System.out.print(toNode + " ");
+                    sb.append(toNode+" ");
                 }
             }
         }
@@ -97,8 +98,10 @@ public class Main {
         init();
         sort();
         dfs(V);
-        System.out.println();
+        sb.append("\n");
         resetVisitedNodes();
         bfs(V);
+
+        System.out.println(sb);
     }
 }
