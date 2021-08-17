@@ -24,6 +24,7 @@
 - prob21 : [2개 이하로 다른 비트](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob21) 
 - prob22 : [짝지어 제거하기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob22) 
 - prob23 : [배달](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob23) 
+- prob24 : [방문 길이](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob24) 🟠
 
 ## 백준
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
