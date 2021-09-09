@@ -26,6 +26,7 @@
 - prob23 : [배달](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob23) 
 - prob24 : [방문 길이](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob24) 🟠
 - prob25 : [캐시](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob25) 🔴
+- prob26 : [다음 큰 숫자](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob26)
 
 ## 백준
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
