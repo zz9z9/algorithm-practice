@@ -28,6 +28,7 @@
 - prob25 : [캐시](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob25) 🔴
 - prob26 : [다음 큰 숫자](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob26)
 - prob27 : [프렌즈 4블록](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob27) 🔴
+- prob28 : [후보키](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob28) 🟠
 
 ## 백준
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
