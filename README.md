@@ -29,6 +29,7 @@
 - prob26 : [다음 큰 숫자](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob26)
 - prob27 : [프렌즈 4블록](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob27) 🔴
 - prob28 : [후보키](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob28) 🟠
+- prob29 : [위클리 챌린지 7주차](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob29) 🟠
 
 ## 백준
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
