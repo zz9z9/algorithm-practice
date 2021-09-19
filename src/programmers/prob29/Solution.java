@@ -12,7 +12,7 @@ public class Solution {
         int n = enter.length;
         int[] answer = new int[n];
         List<Integer> currentPeople = new ArrayList<>();
-        boolean[] isDone = new boolean[n + 1];
+        boolean[] hasDone = new boolean[n + 1];
 
         for (int i = 0; i < n; i++) {
             currentPeople.add(enter[i]);
@@ -21,8 +21,8 @@ public class Solution {
         for (int leavePerson : leave) {
             for (int i = 0; i < currentPeople.size(); i++) {
                 if (leavePerson == currentPeople.get(i)) {
-                    for (int j = i; j >= 1 && !isDone[currentPeople.get(j)]; j--) {
-                        isDone[currentPeople.get(j)] = true;
+                    for (int j = i; j >= 1 && !hasDone[currentPeople.get(j)]; j--) {
+                        hasDone[currentPeople.get(j)] = true;
                         for (int k = j - 1; k >= 0; k--) {
                             answer[currentPeople.get(j) - 1] += 1;
                             answer[currentPeople.get(k) - 1] += 1;
