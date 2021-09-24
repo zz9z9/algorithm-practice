@@ -32,6 +32,7 @@
 - prob29 : [위클리 챌린지 7주차](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob29) 🟠
 - prob30 : [로또의 최고 순위와 최저 순위](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob30)
 - prob31 : [다단계 칫솔 판매](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob31)
+- prob32 : [행렬 테두리 회전하기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob32)
 
 ## 백준
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
