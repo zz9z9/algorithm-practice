@@ -2,6 +2,7 @@ package programmers.prob31;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Stream;
 
 public class Solution {
     static final int PRICE = 100;
@@ -43,12 +44,9 @@ public class Solution {
             calculate(seller[i], amount[i]*PRICE);
         }
 
-        int[] answer = new int[enroll.length];
-        for(int i=0; i<enroll.length; i++) {
-            answer[i] = profit.getOrDefault(enroll[i], 0);
-        }
-
-        return answer;
+       return Stream.of(enroll)
+               .mapToInt(name -> profit.getOrDefault(name, 0))
+               .toArray();
     }
 }
 
