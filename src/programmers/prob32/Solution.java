@@ -34,8 +34,6 @@ public class Solution {
             tmp = nextTmp;
         }
 
-        System.out.println("오른 끝 tmp :: "+tmp);
-
         // 아래
         for(int i=x1; i<x2; i++) {
             int nextTmp = board[i+1][y2];
@@ -44,8 +42,6 @@ public class Solution {
             tmp = nextTmp;
         }
 
-        System.out.println("아래 끝 tmp :: "+tmp);
-
         // 왼쪽
         for(int i=y2; i>y1; i--) {
             int nextTmp = board[x2][i-1];
@@ -53,8 +49,6 @@ public class Solution {
             MIN = Math.min(MIN, tmp);
             tmp = nextTmp;
         }
-
-        System.out.println("왼쪽 끝 tmp :: "+tmp);
 
         // 위
         for(int i=x2; i>x1; i--) {
@@ -76,22 +70,9 @@ public class Solution {
             int min = rotateAndGetMin(query[0], query[1], query[2], query[3]);
 
             answer[i] = min;
-
-//            for(int i=1; i<=rows; i++) {
-//                for(int j=1; j<=columns; j++) {
-//                    System.out.print(board[i][j]+" ");
-//                }
-//                System.out.println();
-//            }
         }
 
-
         return answer;
-    }
-
-    public static void main(String[] args) {
-        int[][] qrys = {{2,2,5,4}};
-        new Solution().solution(6,6, qrys);
     }
 }
 
