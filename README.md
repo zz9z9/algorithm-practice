@@ -34,6 +34,7 @@
 - prob31 : [다단계 칫솔 판매](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob31)
 - prob32 : [행렬 테두리 회전하기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob32)
 - prob33 : [숫자 문자열과 영단어](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob33)
+- prob34 : [없는 숫자 더하기](https://github.com/zz9z9/algorithm-practice/tree/master/src/programmers/prob34)
 
 ## 백준
 - prob1 : [프린터큐](https://github.com/zz9z9/algorithm-practice/tree/master/src/baekjun/prob1)
