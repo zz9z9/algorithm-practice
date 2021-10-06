@@ -1,7 +1,7 @@
 ### 숫자 문자열과 영단어
 - https://programmers.co.kr/learn/courses/30/lessons/81301
 
-### 문제 해결 과정**
+### 문제 해결 과정
 1. Map에 (영단어, 숫자) 쌍 맵핑
 2. 주어진 문자열 s를 문자(char) 단위로 탐색
 3. 해당 문자가 '0' ~ '9'인 경우 정답을 위한 `StringBuilder`에 추가 
